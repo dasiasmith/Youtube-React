@@ -1,6 +1,6 @@
 /* 
 1. What is unidirectional data flow in React?
-When you update a value in state it is then reflected DOM but beforE you do that the DOM is not updating the state.
+When you update a value in state it is then reflected DOM but before you do that the DOM is not updating the state.
 
 2. What is the difference between props and state?
 State is when a component defines data locally within itself and props is when that same data gets passed down to another 
@@ -8,7 +8,7 @@ component. State can be changed and manipulated whereas props cannot
 
 3. What does it mean to lift state up?
 Different components can subscribe to the same state. These components can be put together as siblings inside another
-components that "lifts" on top of them. That way they're the same children of the same parent
+component that "lifts" on top of them. That way they're the same children of the same parent
 
 4. What's the difference between a controlled component and an uncontrolled component?
 An uncontrolled component is one where you do not bind a state. A controlled component is bound to data. To get a value out of an uncontrolled component
@@ -24,7 +24,7 @@ A way for React to identify each individual item with an array.
 7. What is context?
 Context is a mechanism that allows us to pass data from one component down to another compoonent. It's similar to props but a key difference is that
 props only goes down to the next component parent -> child. Context can go as many commponents deep within a tree as it wants to.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 8. What's the difference between var, let, and const?
 Var declarations are globally scoped (can be declared outside a function) or locally scoped. If you have a condition that changes var in a function it can 
 change the var everywhere else which you may not want.
@@ -40,7 +40,7 @@ Reducers - specify how the application's state changes in response to actions se
 Store - holds the application state
 
 10. Explain React component Lifecycle.
-Mounting (constructor, render, componentnDidMount) - done when an instance of a components is being created and inserted into the DOM
+Mounting (constructor, render, componentDidMount) - done when an instance of a components is being created and inserted into the DOM
 Updating (render, componentDidUpdate) - An updated can be cause by changes to props or state. Occur when a component is being re-rendered
 Unmounting (componentWillUnmount) - This method is called when a component is being removed from the DOM
 
