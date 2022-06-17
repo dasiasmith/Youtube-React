@@ -41,14 +41,14 @@ Store - holds the application state
 
 10. Explain React component Lifecycle.
 Mounting (constructor, render, componentDidMount) - done when an instance of a components is being created and inserted into the DOM
-Updating (render, componentDidUpdate) - An updated can be cause by changes to props or state. Occur when a component is being re-rendered
+Updating (render, componentDidUpdate) - An update can be caused by changes to props or state. Occurs when a component is being re-rendered
 Unmounting (componentWillUnmount) - This method is called when a component is being removed from the DOM
 
-11. What is test drien development?
-A practice that focuses on crating unit test cases before developing
+11. What is test driven development?
+A practice that focuses on creating unit test cases before developing
 
 12. Say that you've got 10 million integer and you need to count how many of each integer exists--would a list, set, or map be most efficient?
-A map, more specifically a hash map. Hash maps produce a vaue which can be used as an index for the key in the hash table which makes indexing faster
+A map, more specifically a hash map. Hash maps produce a value which can be used as an index for the key in the hash table which makes indexing faster
 
 13. Following up, what is the time complexity to find a specific integer key-value pair in a map?
 O(n)
@@ -87,7 +87,7 @@ function isAnagram(a,b) {
 
 15. What's the difference between sql and nosql?
 SQL - All data is displayed in tables, rows, columns and data is related to each other via keys. SQL is essentially a relational database (mysql)
-NoSQL - Doesn't following standard sql language and doesn't really rely on relational data. For example mongoDB is a document database which essentially stores everything in
+NoSQL - Doesn't follow standard sql language and doesn't really rely on relational data. For example mongoDB is a document database which essentially stores everything in
 a document with JSON data rather than in a table. It adds a little bit of flexibility. 
 
 16. How to remove duplicates from an array.
@@ -97,7 +97,7 @@ let uniqueChars = chars.filter((c, index) => {
 console.log(uniqueChars);
 
 17. How does an API work?
-Application Programming Interface; the messenger that delivers your request tot he provider from which you requesting from and delivers the response back to you. 
+Application Programming Interface; the messenger that delivers your request to the provider from which you're requesting from and delivers the response back to you. 
 
 18. Build a React countdown timer.
 
